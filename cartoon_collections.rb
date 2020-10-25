@@ -23,8 +23,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.any? {|word| 
   if valid_calls.include? word
     return word
-  else
-    return nil
   end
+  nil
   }
 end
